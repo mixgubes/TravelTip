@@ -14,7 +14,7 @@ const gAPI_KEY =AIzaSyBTPIWlmkZosY9bz2NO7Grw1V9SvtvDESc;
 // API ADDRESS=> LAN ***get STRING***
 
 
-function getCord(address) {
+function getCordApi(address) {
     $.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=AIzaSyBTPIWlmkZosY9bz2NO7Grw1V9SvtvDESc`,
      (res)=>{
         console.log('Service Got:', res);
@@ -25,7 +25,7 @@ function getCord(address) {
 // API LAN=> ADDRESS
 
 
-function getAddress(lat,lng) {
+function getAddressApi(lat,lng) {
     $.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=AIzaSyBTPIWlmkZosY9bz2NO7Grw1V9SvtvDESc`,
      (res)=>{
         console.log('Service Got:', res);

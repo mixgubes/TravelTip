@@ -9,3 +9,4 @@ function saveInStorage(key, value) {
 function getFromStorage(key) {
     return JSON.parse(localStorage.getItem(key))
 }
+
