@@ -70,3 +70,7 @@ function getCord(address) {
 }
 
 //TODO: setSearchInput
+
+
+
+/************ test ***********/
